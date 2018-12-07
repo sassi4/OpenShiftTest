@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+background-color: green;
+}
+.mystyle {
+    background-color: red;
+
+}
+</style>
+</head>
+<body id="myDIV">
+
+
+
+<button onclick="myFunction()">Try it</button>
+
+
+
+<script>
+function myFunction() {
+    var element = document.getElementById("myDIV");
+
+    if (element.classList) { 
+        element.classList.toggle("mystyle");
+    } 
+}
+</script>
+
+</body>
+</html>
+
